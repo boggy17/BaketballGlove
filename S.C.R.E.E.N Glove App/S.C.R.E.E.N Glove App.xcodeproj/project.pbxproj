@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43B3C2B52723527600BC2051 /* S_C_R_E_E_N_Glove_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2B42723527600BC2051 /* S_C_R_E_E_N_Glove_App.swift */; };
+		43B3C2B72723527600BC2051 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2B62723527600BC2051 /* MainView.swift */; };
+		43B3C2B92723527700BC2051 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B3C2B82723527700BC2051 /* Assets.xcassets */; };
+		43B3C2BC2723527700BC2051 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43B3C2BB2723527700BC2051 /* Preview Assets.xcassets */; };
+		43B3C2C62723527700BC2051 /* S_C_R_E_E_N_Glove_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2C52723527700BC2051 /* S_C_R_E_E_N_Glove_AppTests.swift */; };
+		43B3C2D02723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2CF2723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITests.swift */; };
+		43B3C2D22723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2D12723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift */; };
+		43B3C2DF2723533900BC2051 /* GloveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2DE2723533900BC2051 /* GloveModel.swift */; };
+		43B3C2E12723535900BC2051 /* GloveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2E02723535900BC2051 /* GloveViewModel.swift */; };
+		43B3C2E32723539D00BC2051 /* PairGloveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B3C2E22723539D00BC2051 /* PairGloveView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43B3C2C22723527700BC2051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B3C2A92723527600BC2051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B3C2B02723527600BC2051;
+			remoteInfo = "S.C.R.E.E.N Glove App";
+		};
+		43B3C2CC2723527700BC2051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43B3C2A92723527600BC2051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43B3C2B02723527600BC2051;
+			remoteInfo = "S.C.R.E.E.N Glove App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43B3C2B12723527600BC2051 /* S.C.R.E.E.N Glove App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "S.C.R.E.E.N Glove App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3C2B42723527600BC2051 /* S_C_R_E_E_N_Glove_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_C_R_E_E_N_Glove_App.swift; sourceTree = "<group>"; };
+		43B3C2B62723527600BC2051 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		43B3C2B82723527700BC2051 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43B3C2BB2723527700BC2051 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		43B3C2C12723527700BC2051 /* S.C.R.E.E.N Glove AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S.C.R.E.E.N Glove AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3C2C52723527700BC2051 /* S_C_R_E_E_N_Glove_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_C_R_E_E_N_Glove_AppTests.swift; sourceTree = "<group>"; };
+		43B3C2CB2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "S.C.R.E.E.N Glove AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B3C2CF2723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_C_R_E_E_N_Glove_AppUITests.swift; sourceTree = "<group>"; };
+		43B3C2D12723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		43B3C2DE2723533900BC2051 /* GloveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloveModel.swift; sourceTree = "<group>"; };
+		43B3C2E02723535900BC2051 /* GloveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GloveViewModel.swift; sourceTree = "<group>"; };
+		43B3C2E22723539D00BC2051 /* PairGloveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairGloveView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43B3C2AE2723527600BC2051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2BE2723527700BC2051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2C82723527700BC2051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43B3C2A82723527600BC2051 = {
+			isa = PBXGroup;
+			children = (
+				43B3C2B32723527600BC2051 /* S.C.R.E.E.N Glove App */,
+				43B3C2C42723527700BC2051 /* S.C.R.E.E.N Glove AppTests */,
+				43B3C2CE2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests */,
+				43B3C2B22723527600BC2051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43B3C2B22723527600BC2051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43B3C2B12723527600BC2051 /* S.C.R.E.E.N Glove App.app */,
+				43B3C2C12723527700BC2051 /* S.C.R.E.E.N Glove AppTests.xctest */,
+				43B3C2CB2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43B3C2B32723527600BC2051 /* S.C.R.E.E.N Glove App */ = {
+			isa = PBXGroup;
+			children = (
+				43B3C2B42723527600BC2051 /* S_C_R_E_E_N_Glove_App.swift */,
+				43B3C2DE2723533900BC2051 /* GloveModel.swift */,
+				43B3C2E02723535900BC2051 /* GloveViewModel.swift */,
+				43B3C2B62723527600BC2051 /* MainView.swift */,
+				43B3C2E22723539D00BC2051 /* PairGloveView.swift */,
+				43B3C2B82723527700BC2051 /* Assets.xcassets */,
+				43B3C2BA2723527700BC2051 /* Preview Content */,
+			);
+			path = "S.C.R.E.E.N Glove App";
+			sourceTree = "<group>";
+		};
+		43B3C2BA2723527700BC2051 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				43B3C2BB2723527700BC2051 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		43B3C2C42723527700BC2051 /* S.C.R.E.E.N Glove AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				43B3C2C52723527700BC2051 /* S_C_R_E_E_N_Glove_AppTests.swift */,
+			);
+			path = "S.C.R.E.E.N Glove AppTests";
+			sourceTree = "<group>";
+		};
+		43B3C2CE2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43B3C2CF2723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITests.swift */,
+				43B3C2D12723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift */,
+			);
+			path = "S.C.R.E.E.N Glove AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43B3C2B02723527600BC2051 /* S.C.R.E.E.N Glove App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B3C2D52723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove App" */;
+			buildPhases = (
+				43B3C2AD2723527600BC2051 /* Sources */,
+				43B3C2AE2723527600BC2051 /* Frameworks */,
+				43B3C2AF2723527600BC2051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "S.C.R.E.E.N Glove App";
+			productName = "S.C.R.E.E.N Glove App";
+			productReference = 43B3C2B12723527600BC2051 /* S.C.R.E.E.N Glove App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43B3C2C02723527700BC2051 /* S.C.R.E.E.N Glove AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B3C2D82723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove AppTests" */;
+			buildPhases = (
+				43B3C2BD2723527700BC2051 /* Sources */,
+				43B3C2BE2723527700BC2051 /* Frameworks */,
+				43B3C2BF2723527700BC2051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B3C2C32723527700BC2051 /* PBXTargetDependency */,
+			);
+			name = "S.C.R.E.E.N Glove AppTests";
+			productName = "S.C.R.E.E.N Glove AppTests";
+			productReference = 43B3C2C12723527700BC2051 /* S.C.R.E.E.N Glove AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43B3C2CA2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43B3C2DB2723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove AppUITests" */;
+			buildPhases = (
+				43B3C2C72723527700BC2051 /* Sources */,
+				43B3C2C82723527700BC2051 /* Frameworks */,
+				43B3C2C92723527700BC2051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43B3C2CD2723527700BC2051 /* PBXTargetDependency */,
+			);
+			name = "S.C.R.E.E.N Glove AppUITests";
+			productName = "S.C.R.E.E.N Glove AppUITests";
+			productReference = 43B3C2CB2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43B3C2A92723527600BC2051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					43B3C2B02723527600BC2051 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					43B3C2C02723527700BC2051 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 43B3C2B02723527600BC2051;
+					};
+					43B3C2CA2723527700BC2051 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 43B3C2B02723527600BC2051;
+					};
+				};
+			};
+			buildConfigurationList = 43B3C2AC2723527600BC2051 /* Build configuration list for PBXProject "S.C.R.E.E.N Glove App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43B3C2A82723527600BC2051;
+			productRefGroup = 43B3C2B22723527600BC2051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43B3C2B02723527600BC2051 /* S.C.R.E.E.N Glove App */,
+				43B3C2C02723527700BC2051 /* S.C.R.E.E.N Glove AppTests */,
+				43B3C2CA2723527700BC2051 /* S.C.R.E.E.N Glove AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43B3C2AF2723527600BC2051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B3C2BC2723527700BC2051 /* Preview Assets.xcassets in Resources */,
+				43B3C2B92723527700BC2051 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2BF2723527700BC2051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2C92723527700BC2051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43B3C2AD2723527600BC2051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B3C2E12723535900BC2051 /* GloveViewModel.swift in Sources */,
+				43B3C2B72723527600BC2051 /* MainView.swift in Sources */,
+				43B3C2DF2723533900BC2051 /* GloveModel.swift in Sources */,
+				43B3C2B52723527600BC2051 /* S_C_R_E_E_N_Glove_App.swift in Sources */,
+				43B3C2E32723539D00BC2051 /* PairGloveView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2BD2723527700BC2051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B3C2C62723527700BC2051 /* S_C_R_E_E_N_Glove_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43B3C2C72723527700BC2051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43B3C2D22723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITestsLaunchTests.swift in Sources */,
+				43B3C2D02723527700BC2051 /* S_C_R_E_E_N_Glove_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43B3C2C32723527700BC2051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B3C2B02723527600BC2051 /* S.C.R.E.E.N Glove App */;
+			targetProxy = 43B3C2C22723527700BC2051 /* PBXContainerItemProxy */;
+		};
+		43B3C2CD2723527700BC2051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43B3C2B02723527600BC2051 /* S.C.R.E.E.N Glove App */;
+			targetProxy = 43B3C2CC2723527700BC2051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		43B3C2D32723527700BC2051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43B3C2D42723527700BC2051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43B3C2D62723527700BC2051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"S.C.R.E.E.N Glove App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses  BLE";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43B3C2D72723527700BC2051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"S.C.R.E.E.N Glove App/Preview Content\"";
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "This app uses  BLE";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		43B3C2D92723527700BC2051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S.C.R.E.E.N Glove App.app/S.C.R.E.E.N Glove App";
+			};
+			name = Debug;
+		};
+		43B3C2DA2723527700BC2051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/S.C.R.E.E.N Glove App.app/S.C.R.E.E.N Glove App";
+			};
+			name = Release;
+		};
+		43B3C2DC2723527700BC2051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "S.C.R.E.E.N Glove App";
+			};
+			name = Debug;
+		};
+		43B3C2DD2723527700BC2051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7ARSJ6RWTQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "glove.S-C-R-E-E-N-Glove-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "S.C.R.E.E.N Glove App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43B3C2AC2723527600BC2051 /* Build configuration list for PBXProject "S.C.R.E.E.N Glove App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B3C2D32723527700BC2051 /* Debug */,
+				43B3C2D42723527700BC2051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B3C2D52723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B3C2D62723527700BC2051 /* Debug */,
+				43B3C2D72723527700BC2051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B3C2D82723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B3C2D92723527700BC2051 /* Debug */,
+				43B3C2DA2723527700BC2051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43B3C2DB2723527700BC2051 /* Build configuration list for PBXNativeTarget "S.C.R.E.E.N Glove AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43B3C2DC2723527700BC2051 /* Debug */,
+				43B3C2DD2723527700BC2051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43B3C2A92723527600BC2051 /* Project object */;
+}
